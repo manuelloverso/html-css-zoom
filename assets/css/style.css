@@ -7,3 +7,61 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+:root {
+  --lighter-grey: #4a4a4a;
+  --dark-grey: #222222;
+}
+
+/* #region HEADER */
+
+header {
+  background-color: red;
+  text-align: end;
+  padding: 15px 5px;
+}
+
+header span {
+  color: #fff;
+  background-color: var(--lighter-grey);
+  padding: 5px;
+  border-radius: 7px;
+}
+
+/* #endregion HEADER */
+
+/* #region MAIN */
+
+main {
+  background-color: black;
+}
+
+.container {
+  width: 80%;
+  padding-top: 80px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.user {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.user img {
+  display: block;
+}
+
+.user-name {
+  font-size: 0.9rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.375);
+  padding: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* #endregion MAIN */
