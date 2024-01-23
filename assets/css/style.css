@@ -34,24 +34,30 @@ header span {
 
 main {
   background-color: black;
+  height: calc(100vh - 49px - 100px);
+  overflow-y: scroll;
 }
 
 .container {
   width: 80%;
-  padding-top: 80px;
+  padding-top: 50px;
+  padding-bottom: 20px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  /* gap: 5px; */
 }
 
 .user {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  padding-right: 5px;
+  width: calc(100% / 6);
 }
 
 .user img {
-  display: block;
+  /* display: block; */
+  width: 100%;
 }
 
 .user-name {
@@ -65,3 +71,12 @@ main {
 }
 
 /* #endregion MAIN */
+
+/* #region BOTTOM TOOLBAR */
+
+.bottom-toolbar {
+  height: 100px;
+  background-color: var(--dark-grey);
+}
+
+/* #endregion BOTTOM TOOLBAR */
