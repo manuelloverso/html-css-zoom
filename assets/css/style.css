@@ -40,24 +40,24 @@ main {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   padding-top: 30px;
   padding-bottom: 20px;
   margin: auto;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  /* gap: 5px; */
+  max-width: 2000px;
+  gap: 5px;
 }
 
 .user {
   position: relative;
-  margin-bottom: 15px;
-  padding-right: 5px;
-  width: calc(100% / 6);
+  margin-bottom: 10px;
 }
 
 .user img {
-  /* display: block; */
+  display: block;
   width: 100%;
 }
 
